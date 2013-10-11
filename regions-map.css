@@ -1,0 +1,51 @@
+/* USA MAP map */
+div#grownc-menu-regions-map-ul-wrapper { text-align: center; }
+ul.grownc-menu { height: 600px; width: 515px; position: relative; display: inline-block !important; }
+ul.grownc-menu, ul.grownc-menu li.grownc-leaf, ul.grownc-menu li.grownc-leaf  .grownc-link { display: block; padding: 0; margin: 0; }
+ul.grownc-menu li.grownc-leaf { list-style: none; list-style-image: none; position: absolute; }
+ul.grownc-menu li.grownc-leaf .grownc-link { position: absolute; left: 0; top: 0; background: url(../images/grownc_regions.png) -2250px -750px scroll no-repeat; height: 0 !important; overflow: hidden }
+ul.grownc-menu li.grownc-leaf:hover { z-index: 300; }
+
+ul.grownc-menu li.leaf-north-asheville { left: 142px; top: 0px; }
+ul.grownc-menu li.leaf-north-asheville .grownc-link { width: 299px; padding: 299px 0 0; background-position: 0 0; }
+ul.grownc-menu li.leaf-north-asheville .grownc-link.disabled-region { background-position: 0 -375px; }
+
+ul.grownc-menu li.leaf-black-mountain { left: 341px; top: 192px; z-index: 301; }
+ul.grownc-menu li.leaf-black-mountain .grownc-link { width: 131px; padding: 107px 0 0; background-position: -375px 0; }
+ul.grownc-menu li.leaf-black-mountain .grownc-link.disabled-region  { background-position: -375px -375px; }
+
+ul.grownc-menu li.leaf-fairview { left: 360px; top: 282px; }
+ul.grownc-menu li.leaf-fairview .grownc-link {  width: 155px; padding: 178px 0 0; background-position: -750px 0; }
+ul.grownc-menu li.leaf-fairview .grownc-link.disabled-region  { background-position: -750px -375px;}
+
+ul.grownc-menu li.leaf-hendersonville { left: 295px; top: 297px; }
+ul.grownc-menu li.leaf-hendersonville .grownc-link { width: 135px; padding: 245px 0 0; background-position: -1125px 0; }
+ul.grownc-menu li.leaf-hendersonville .grownc-link.disabled-region  { background-position: -1125px -375px; }
+
+ul.grownc-menu li.leaf-brevard { left: 84px; top: 325px; }
+ul.grownc-menu li.leaf-brevard .grownc-link { width: 262px; padding: 273px 0 0; background-position: -1500px 0; }
+ul.grownc-menu li.leaf-brevard .grownc-link.disabled-region  { background-position: -1500px -375px; }
+
+ul.grownc-menu li.leaf-waynesville { left: 0; top: 151px; }
+ul.grownc-menu li.leaf-waynesville .grownc-link { width: 314px; padding: 296px 0 0; background-position: -1875px 0; }
+ul.grownc-menu li.leaf-waynesville .grownc-link.disabled-region  { background-position: -1875px -375px; }
+
+#grownc-region-map-tooltip {
+    position: absolute;
+    z-index: 305;
+    display: none;
+    background: #777;
+    padding: 1em;
+    border-radius: 15px;
+}
+#grownc-region-map-tooltip h3 {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    color: #fff;
+    line-height: 19px;
+    vertical-align: baseline;
+    margin-bottom: 0px;
+}
